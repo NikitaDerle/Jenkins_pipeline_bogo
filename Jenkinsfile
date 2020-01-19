@@ -2,7 +2,7 @@ node {
    // Mark the code checkout 'stage'....
    stage 'Checkout'
    
-   git url: 'https://github.com/NikitaDerle/Jenkins_pipeline_bogo/edit/master/JenkinsFile'
+   git url: 'https://github.com/NikitaDerle/game-of-life.git'
 
    // Get the maven tool.
    // ** NOTE: This 'M3' maven tool must be configured
